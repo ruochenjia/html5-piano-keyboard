@@ -1,0 +1,19 @@
+{
+	"main": "main.js",
+	"type": "module",
+	"private": true,
+	"devDependencies": {
+		"@nettleweb/audio": "link:../nettleweb-audio",
+		"@nettleweb/core": "^0.4.1",
+		"@types/audioworklet": "^0.0.100",
+		"string-pool-plugin": "^0.1.0",
+		"terser-webpack-plugin": "^5.6.1",
+		"ts-loader": "^9.6.2",
+		"typescript": "^6.0.3",
+		"webpack": "^5.112.2",
+		"webpack-cli": "^7.3.1"
+	},
+	"scripts": {
+		"build": "./scripts/build.sh"
+	}
+}

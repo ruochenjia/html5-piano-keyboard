@@ -1,0 +1,24 @@
+{
+	"compilerOptions": {
+		"lib": ["ES2022", "DOM", "DOM.Iterable", "ESNext"],
+		"types": ["audioworklet"],
+		"target": "ES2015",
+		"module": "ES2022",
+		"strict": true,
+		"outDir": "../out/",
+		"allowJs": false,
+		"checkJs": false,
+		"sourceMap": false,
+		"alwaysStrict": true,
+		"moduleResolution": "bundler",
+		"strictNullChecks": true,
+		"strictBindCallApply": true,
+		"strictFunctionTypes": true,
+		"strictPropertyInitialization": true,
+		"forceConsistentCasingInFileNames": true
+	},
+	"compileOnSave": true,
+	"buildOptions": {
+		"verbose": true
+	}
+}
